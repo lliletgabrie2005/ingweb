@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>DHYCOB-IM</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="..\images\mini-logo.png">
+  <link href="../styles/alternas01.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="..\images\logo.png" alt="Logo de DHYCOB">
+        </a>
+        <nav>
+            <a href="../" class="nav-link">Inicio</a>
+            <a href="../alternas\diseño_tipo.html" class="nav-link">Diseños</a>
+            <a href="http://201.159.222.179:8080/captacion/Manuales/Manual%20de%20usuario%20DHYCOB.pdf" class="nav-link" target="_blank">Manual</a>
+            <a href="https://www.youtube.com/watch?v=SuG3cZwWVZ8" class="nav-link" target="_blank">Video tutorial</a>
+        </nav>
+    </header>
+    <div class="menu">
+        <nav>
+            <a href="../alternas\superficie_libre.html"class="nav-link1">Superficie libre</a>
+            <a href="../alternas\elementos_hidraulicos.html" class="nav-link2">Elementos hidráulicos</a>
+            <a href="../alternas\almacenamiento.html" class="nav-link2">Almacenamiento</a>
+            <a href="../alternas\captaciones.html" class="nav-link2">Captaciones</a>
+            <a href="../alternas\estabilizacion_causes.html" class="nav-link2">Estabilización cauces</a>
+            <a href="../alternas\drenajes.html" class="nav-link2">Espaciamiento de drenes abiertos y cerrados</a>
+        </nav><br>
+    </div>
+    <div class="menu2">
+        <nav>
+            <a href="../alternas\superficie_libre.html"class="nav-link3">Todos</a>
+            <a href="../subinternas\superficie_libre_p1.html"class="nav-link4">Tirante normal</a>
+            <a href="../subinternas\superficie_libre_p2.html"class="nav-link3">Tirante crítico</a>
+            <a href="../subinternas\superficie_libre_p3.html"class="nav-link3">Salto hidráulico</a>
+            <a href="../subinternas\superficie_libre_p4.html"class="nav-link3">Curvas Remanso</a>
+        </nav>
+    </div>
+    <div class="subti">
+        <h2>Sección trapezoidal, rectangular, triangular</h2>
+    </div>
+    <div class="experimento">
+        <form id="formulario">
+            <h3>Datos</h3>
+            <p>Caudal (m³/s):</p>
+            <input type="number" id="caudal" class="custom-input" required>
+            <br>
+            <p>Ancho de solera (m):</p>
+            <input type="number" id="anchoSolera" class="custom-input" required>
+            <br>
+            <p>Pendiente talud (Z):</p>
+            <input type="number" id="pendienteTalud" class="custom-input" required>
+            <br>
+            <p>Rugosidad (n):</p>
+            <input type="number" id="rugosidad" class="custom-input" required>
+            <br>
+            <p>Pendiente (m/m):</p>
+            <input type="number" id="pendiente" class="custom-input" required>
+            <br>
+        </form>
+        <br>
+        <div class="button_calc">
+            <button type="button" onclick="calcular()">Calcular</button>
+        </div>
+        <br>
+        <div class="button_inf">
+            <button type="button" onclick="limpiarCampos()">Limpiar</button>
+            <button type="button" onclick="ejemploCalculo()">Ejemplo de cálculo</button>
+        </div>
+    </div>
+    <div class="resultados" id="resultados" style="display: none;">
+        <h3>Resultados:</h3>
+        <p id="tiranteNormal"></p>
+        <p id="perimetro"></p>
+        <p id="areaHidraulica"></p>
+        <p id="radioHidraulico"></p>
+        <p id="espejoAgua"></p>
+        <p id="velocidad"></p>
+        <p id="numeroFroude"></p>
+        <p id="energia"></p>
+        <p id="tipoFlujo"></p>
+    </div>
+    <br><br><br>
+    <script type="text/javascript" src="../sripts\tirante_p1.js"></script>
+</body>
+</html>

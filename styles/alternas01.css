@@ -1,0 +1,262 @@
+body{
+    background: #EFEEEE;
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #003C69;
+}
+a:hover{
+    color: #004f8b;
+}
+/* Encabezado N°1 */
+
+header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.nav-link{
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+/* Menu N°1 */
+
+.menu nav{
+    position: absolute;
+    left: 80px;
+    top: 120px;
+    
+}
+
+.nav-link2{
+    color: #727272;
+    padding-right: 20px;
+}
+
+.menu nav a:hover{
+    color: #003C69;
+}
+.nav-link1{
+    color: #003C69;
+    border-bottom: solid 1px #004f8b;
+    padding-right: 20px;
+}
+/* Menu N°2 */
+.menu2 nav{
+    position: absolute;
+    left: 80px;
+    top: 180px;
+
+}
+
+.nav-link4{
+    color: #ffffff;
+}
+.nav-link4 {
+     margin-right: 20px;
+    padding: 12px 30px;
+    left: 208px;
+    top: 180px;
+    background: #003C69;
+    color: #FFFFFF;
+}
+.nav-link4:hover{
+    background: #004f8b;
+    color: #FFFFFF;
+}
+
+.nav-link3{
+    margin-right: 20px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    padding: 12px 30px;
+    left: 80px;
+    top: 180px;
+}
+.menu3 nav{
+    position: absolute;
+    left: 80px;
+    top: 256px;
+    display: flex;
+}
+.menu3 a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 127.5%;
+}
+.nav-link5{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+    padding: 15px 315px;
+    width: 305px;
+    height: 140px;
+    background: #E3F0F5;
+    border: 1px solid #E3E3E3;
+}
+.nav-link3:hover{
+    box-shadow: 0 0 3px #979797; 
+}
+
+/* Menu N°3 */
+.menu3 nav{
+    position: absolute;
+    left: 80px;
+    top: 240px;
+    display: flex;
+}
+
+.nav-link6{
+    margin-right: 20px;
+    width: 305px;
+    padding-top: 14px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    text-align: center;
+    border-radius: 10px;
+}
+.nav-link6:hover{
+    box-shadow: 0 0 3px #979797; 
+}
+
+/* Experimentos */
+.subti h2{
+    color: #003C69;
+    padding-left: 70px;
+    padding-top: 125px;
+}
+
+.experimento {
+    padding-left: 70px;
+    float: left;
+}
+
+
+/* Resultados */
+.resultados{
+    padding:relative;
+    left: 200x;
+}
+.resultados {
+    margin: auto;
+    width: 700px;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 5px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 0px 2px 4px rgba(16, 24, 40, 0.05), 0px -2px 4px rgba(16, 24, 40, 0.05);
+    
+}
+.resultados h3 {
+    font-family: Arial, sans-serif; /* Estilo de letra */
+    font-size: 24px; /* Tamaño de letra */
+    font-weight: bold; /* Grosor de letra (negrita) */
+    color: #333; /* Color del texto */
+}
+
+/* Casillas */
+.custom-input {
+  width: 400px;
+  padding: 6px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: 1px solid #464a5888;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.custom-input:focus {
+  outline: none;
+  border-color: #007BFF;
+  box-shadow: 0 0 5px #007BFF; 
+}
+
+/* Botones */
+.button_calc button {
+  width: 400px;
+  height: 40px;
+  
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  
+  background-image: linear-gradient(to right, #003C69, #0087b4);
+  color: white;
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+}
+
+.button_calc button:hover {
+  background-image: linear-gradient(to right, #002f53, #007197);
+}
+
+.button_inf button{
+  width: 197px;
+  height: 40px;
+  
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  
+  color: #003C69;
+  background-color: #FFFFFF;
+  border-color: #003c697e; 
+  border-radius: 4px; 
+  cursor: pointer; 
+}
+
+.button_inf button:hover{
+    background-color: #f5f5f5;
+}
+
+#Label41 {
+    visibility: hidden;
+}
+table {
+    width: 1000px;
+    border-collapse: collapse;
+
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column; /* Cambia a column para que los elementos aparezcan en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+  }
+  
+  .form-container {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .graph-container {
+    padding: 20px;
+    width: 1000px; /* Ajusta el ancho según tus necesidades */
+    height: 400px; /* Ajusta la altura según tus necesidades */
+  }

@@ -1,0 +1,109 @@
+
+body{
+    background: #EFEEEE;
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+    color: #003C69;
+}
+a{
+    text-decoration: none;
+    color: #003C69;
+}
+a:hover{
+    color: #004f8b;
+}
+h1{
+    padding-left: 70px;
+}
+
+/* Encabezado N°1 */
+
+header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.nav-link{
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    position: relative; /* Establece el posicionamiento absoluto */
+    top: 7px; /* Ajusta la distancia desde la parte superior */
+    left: 30px; /* Ajusta la distancia desde la izquierda */
+}
+
+/* Menu N°1 */
+
+.menu nav{
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+.menu nav a{
+    color: #727272;
+}
+
+.menu nav a:hover{
+    color: #003C69;
+}
+
+.nav-link2{
+    padding-right: 40px;
+}
+
+h2{
+    padding-left: 70px;
+}
+
+/* Contenedor N°1 */
+
+.conteiner {
+    display: flex;
+    padding-left: 70px;
+}
+.conteiner p{
+    padding-left: 25px;
+}
+
+.conteiner .S2{
+    padding-left: 150px;
+}
+.conteiner .S3{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/* Contenedor N°2 */
+
+.conteiner2 {
+    display: flex;
+    padding-left: 70px;
+}
+.conteiner2 p{
+    padding-left: 25px;
+}
+
+.conteiner2 .S6{
+    padding-left: 70px;
+    padding-right: 150px;
+}
+
+/* Diseños hidraulicos */
+.indice {
+    padding-top: 30px;
+}
+.indice .titulo{
+    padding-left: 70px;
+}
+.indice .descargas{
+    padding-left: 70px;
+}
